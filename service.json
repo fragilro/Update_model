@@ -27,7 +27,7 @@
         "required": true
       },
       {
-        "name": "Segmentation mask",
+        "name": "Segmentation",
         "type": "OverlayImage",
         "hint": "Segmentation mask corrected",
         "required": true
