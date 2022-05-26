@@ -1,0 +1,36 @@
+{
+    "name": "Update Model",
+    "version": "0.1.0",
+    "keywords": [
+      "segmentation",
+      "multichannel"
+    ],
+    "shortdesc": "DSS service (update model)",
+    "longdesc": "DSS service (update model)",
+    "tags": [
+      {
+        "name": "Flair",
+        "type": "MainImage",
+        "hint": "Flair MRI image",
+        "required": true
+      },
+      {
+        "name": "T1C",
+        "type": "OverlayImage",
+        "hint": "T1C MRI image",
+        "required": true
+      },
+      {
+        "name": "T2",
+        "type": "OverlayImage",
+        "hint": "T2 MRI image",
+        "required": true
+      },
+      {
+        "name": "Segmentation mask",
+        "type": "Segmentation",
+        "hint": "Segmentation mask corrected",
+        "required": true
+      }
+    ]
+  }
