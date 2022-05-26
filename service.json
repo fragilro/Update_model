@@ -31,6 +31,24 @@
         "type": "Segmentation",
         "hint": "Segmentation mask corrected",
         "required": true
+      },
+      {
+        "name": "Segmentation mask2",
+        "type": "PointLandmark",
+        "hint": "Segmentation mask corrected", 
+        "required": true
+      },
+      {
+        "name": "Segmentation mask3",
+        "type": "AnatomicImage",
+        "hint": "Segmentation mask corrected",
+        "required": true
+      },
+      {
+        "name": "Segmentation mask4",
+        "type": "Label",
+        "hint": "Segmentation mask corrected", 
+        "required": true
       }
     ]
   }
