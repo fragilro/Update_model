@@ -9,14 +9,8 @@
     "longdesc": "DSS service (update model)",
     "tags": [
       {
-        "name": "Flair",
-        "type": "MainImage",
-        "hint": "Flair MRI image",
-        "required": true
-      },
-      {
         "name": "T1C",
-        "type": "OverlayImage",
+        "type": "MainImage",
         "hint": "T1C MRI image",
         "required": true
       },
@@ -24,6 +18,12 @@
         "name": "T2",
         "type": "OverlayImage",
         "hint": "T2 MRI image",
+        "required": true
+      },
+      {
+        "name": "Flair",
+        "type": "OverlayImage",
+        "hint": "Flair MRI image",
         "required": true
       },
       {
